@@ -1,0 +1,7 @@
+{
+  "name": "Node.js 22 Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "mounts": ["target=${containerWorkspaceFolder}/node_modules,type=volume"]
+}
