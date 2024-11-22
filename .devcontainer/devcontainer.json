@@ -1,7 +1,5 @@
 {
   "name": "Node.js 22 Dev Container",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
+  "image": "node:22-bookworm",
   "mounts": ["target=${containerWorkspaceFolder}/node_modules,type=volume"]
 }
